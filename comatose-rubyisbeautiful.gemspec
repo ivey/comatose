@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.8.4") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Bryan Taylor, Matt McCray, Michael Kovacs}]
-  s.cert_chain = [%q{/Users/bryan/.gem_credentials/gem-public_cert.pem}]
+  # s.cert_chain = [%q{/Users/bryan/.gem_credentials/gem-public_cert.pem}]
   s.date = %q{2011-07-30}
   s.description = %q{Web Content Management in Rails 3.}
   s.email = %q{ artofobjects at gmail dot com }
@@ -32,7 +32,7 @@ From here you'll want to run:
   s.require_paths = [%q{lib}]
   s.rubyforge_project = %q{comatose-rubyisbeautiful}
   s.rubygems_version = %q{1.8.5}
-  s.signing_key = %q{/Users/bryan/.gem_credentials/gem-private_key.pem}
+  # s.signing_key = %q{/Users/bryan/.gem_credentials/gem-private_key.pem}
   s.summary = %q{Micro CMS - resurrected for Rails 3}
   s.test_files = [%q{test/functional/comatose_admin_controller_test.rb}, %q{test/functional/comatose_controller_test.rb}, %q{test/integration/comatose_routing_test.rb}, %q{test/performance/browsing_test.rb}, %q{test/test_helper.rb}, %q{test/unit/class_options_test.rb}, %q{test/unit/comatose_page_test.rb}, %q{test/unit/processing_context_test.rb}, %q{test/unit/text_filters_test.rb}]
 
